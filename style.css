@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    width: 30vw;
+    height: 50vh;
+    background-color: blue;
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    padding-left: 270px;
+    padding-top: 150px;
+    gap: 20px;
+}
+
+.paragrafo {
+    color: white;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.divisao {
+    width: 30vw;
+    height: 50vh;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 125px;
+    text-shadow: black;
+}
+
+body {
+    background-color: black;
+}
